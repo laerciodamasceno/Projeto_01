@@ -1,0 +1,189 @@
+.box-about {
+  position: relative;
+
+  margin-top: 54px;
+
+  width: 1110px;
+  height: 550px;
+
+  background-image: url(../../assets/home/image-homepage-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-about h1 {
+  position: absolute;
+  bottom: 0;
+
+  font-family: 'Ibarra Real Nova';
+  font-size: 50px;
+  line-height: 50px;
+
+  width: 435px;
+  height: 330px;
+
+  padding-left: 20px;
+  padding-top: 30px;
+
+  background-color: #fff;
+  color: #33323D;
+}
+
+.about {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  width: 200px;
+
+  background-color: #203A4C;
+}
+
+.about a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  width: 100%;
+  height: 100%;
+
+  color: #FFFFFF;
+}
+
+.image-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 70px;
+  height: 46px;
+
+  background-color: #192a36;
+}
+
+.image-about:hover {
+  opacity: 0.7;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.about-text:hover {
+  opacity: 0.7;
+}
+
+.box-profile {
+  display: flex;
+  flex-direction: column;
+
+  width: 532px;
+  height: 640px;
+
+  margin-top: 100px;
+}
+
+.text-profile {
+  width: 450px;
+  height: 430px;
+
+  margin-top: 50px;
+}
+
+.title-about {
+  font-family: 'Ibarra Real Nova';
+  border-top: 1px solid lightgray;
+  font-size: 40px;
+
+  padding-top: 40px;
+
+  color: #33323D;
+}
+
+.text {
+  margin-top: 28px;
+  line-height: 30px;
+}
+
+.box-button {
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  height: 48px;
+
+  margin-top: 60px;
+  margin-left: 113px;
+  margin-right: 113px;
+}
+
+.box-button a {
+  text-decoration: none;
+}
+
+.box-button:hover {
+  opacity: 0.5;
+}
+
+.button-go {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #33323D;
+
+  height: 100%;
+
+  color: #33323D;
+}
+
+.border {
+  border-top: 1px solid lightgray;
+
+  margin-top: 50px;
+}
+
+.box-contact {
+  display: flex;
+  align-items: center;
+
+  width: 400px;
+  height: 300px;
+
+  margin-top: 50px;
+}
+
+.area-contact h1 {
+  font-family: 'Ibarra Real Nova';
+  font-size: 40px;
+
+  color: #33323D;
+}
+
+.button-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #33323D;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  width: 248px;
+  height: 48px;
+
+  margin-top: 50px;
+
+  color: #33323D;
+}
+
+.button-contact:hover {
+  opacity: 0.5;
+}
+
+.button-contact a {
+  color: inherit;
+  text-decoration: none;
+}
